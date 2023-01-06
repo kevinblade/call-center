@@ -1,4 +1,4 @@
-# Turborepo Svelte + Tailwind starter
+# Turborepo SvelteKit + Tailwind starter
 
 This is an official starter Turborepo.
 
