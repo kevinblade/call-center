@@ -29,8 +29,8 @@ This Turborepo has some additional tools already setup for you:
 Run the following command:
 
 ```sh
-npx degit kevinblade/call-center call=center
-cd call-center
+npx degit kevinblade/turbo-sveltekit-starter turbo-sveltekit-starter
+cd turbo-sveltekit-starter
 pnpm install
 git init . && git add . && git commit -m "Init"
 ```
