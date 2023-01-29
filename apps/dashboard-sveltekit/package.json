@@ -33,6 +33,7 @@
     "eslint-config-custom": "workspace:*",
     "postcss": "^8.4.21",
     "svelte": "^3.54.0",
+    "svelte-bootstrap-icons": "^2.3.1",
     "svelte-check": "^2.9.2",
     "svelte-preprocess": "^4.10.7",
     "tailwind-config": "workspace:*",

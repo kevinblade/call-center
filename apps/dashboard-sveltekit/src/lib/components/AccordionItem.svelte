@@ -1,7 +1,7 @@
 <script lang="ts">
   import { fly } from 'svelte/transition'
-  import ChevronUp from '$icon/ChevronUp/ChevronUp.svelte'
-  import ChevronDown from '$icon/ChevronDown/ChevronDown.svelte'
+  import ChevronUp from '$icon/ChevronUp.svelte'
+  import ChevronDown from '$icon/ChevronDown.svelte'
 
   export let title = 'My accordion title'
   export let type = 'primary'

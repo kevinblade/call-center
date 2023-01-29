@@ -60,6 +60,7 @@ importers:
       eslint-config-custom: workspace:*
       postcss: ^8.4.21
       svelte: ^3.54.0
+      svelte-bootstrap-icons: ^2.3.1
       svelte-chartjs: ^1.0.1
       svelte-check: ^2.9.2
       svelte-particles: ^2.2.4
@@ -90,6 +91,7 @@ importers:
       eslint-config-custom: link:../../packages/eslint-config-custom
       postcss: 8.4.21
       svelte: 3.55.1
+      svelte-bootstrap-icons: 2.3.1
       svelte-check: 2.10.3_pehl75e5jsy22vp33udjja4soi
       svelte-preprocess: 4.10.7_oifjsu5oar4lzyaoppb2hxramu
       tailwind-config: link:../../packages/tailwind-config
@@ -2468,6 +2470,10 @@ packages:
     engines: {node: '>= 0.4'}
     dev: true
 
+  /svelte-bootstrap-icons/2.3.1:
+    resolution: {integrity: sha512-Vqhgmcd55hEoB/MrPESvVYo4+m++2q9l00a5lzGkgbXTiO6go21PTU9DaeAJ446WBiEmg3Q8sv9QVOBmh5c1ww==}
+    dev: true
+
   /svelte-chartjs/1.1.4:
     resolution: {integrity: sha512-G+G3h1yDFKNTamwq1iDSK1nthStVpEKaCh8K17cUlMPRX1bFF14sK2kWNv0tPj+OGWDTJgDM3X18EU0o3/kH5Q==}
     dependencies:
@@ -3163,7 +3169,7 @@ packages:
       vite:
         optional: true
     dependencies:
-      vite: 4.0.4_@types+node@18.11.18
+      vite: 4.0.4
     dev: true
 
   /vitest/0.25.8:
