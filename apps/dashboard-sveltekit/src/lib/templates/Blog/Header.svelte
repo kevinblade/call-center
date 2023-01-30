@@ -1,7 +1,7 @@
 <script lang="ts">
   import { isSideMenuOpen, toggleSideMenu } from '$stores/menus'
-  import List from '$icon/List/List.svelte'
-  import X from '$icon/X/X.svelte'
+  import List from '$icon/List.svelte'
+  import X from '$icon/X.svelte'
   import links from './Config/links.json'
 </script>
 

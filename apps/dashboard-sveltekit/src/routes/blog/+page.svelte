@@ -1,7 +1,7 @@
 <script lang="ts">
-  import Github from '$icon/Github/Github.svelte'
-  import Building from '$icon/Building/Building.svelte'
-  import CardList from '$icon/CardList/CardList.svelte'
+  import Github from '$icon/Github.svelte'
+  import Building from '$icon/Building.svelte'
+  import CardList from '$icon/CardList.svelte'
 
   import pilipinasTeleservImg from '$lib/templates/Blog/Images/company1.png'
   import vroom3Img from '$lib/templates/Blog/Images/company2.svg'
@@ -35,10 +35,7 @@
         <div class="xl:text-left">
           <p class="pt-5">
             <span class="pl-5" />I'm
-            <a
-              href="https://www.linkedin.com/in/daison-cari%C3%B1o-56319471"
-              target="_blank"
-              class="font-thin italic border-b border-gray-900">Daison Cariño</a
+            <a href="https://www.linkedin.com/in/daison-cari%C3%B1o-56319471" target="_blank" rel="noreferrer" class="font-thin italic border-b border-gray-900">Daison Cariño</a
             > and currently working here in Singapore as a Senior Software Engineer and Co. Lead
           </p>
 

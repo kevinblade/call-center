@@ -1,6 +1,6 @@
 <script lang="ts">
 	import Badge from '$lib/components/Badge.svelte'
-	import Info from '$icon/Info/Info.svelte'
+	import Info from '$icon/Info.svelte'
 </script>
 
 <div class="absolute w-full font-extralight">
