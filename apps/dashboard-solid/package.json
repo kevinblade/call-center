@@ -3,26 +3,51 @@
   "version": "0.0.1",
   "private": true,
   "description": "",
+  "type": "module",
   "scripts": {
-    "start": "vite",
-    "dev": "vite",
-    "build": "vite build",
-    "serve": "vite preview"
+    "dev": "solid-start dev --port 3000",
+    "build": "solid-start build",
+    "start": "solid-start start --port 3000",
+    "test": "vitest run",
+    "test-watch": "vitest",
+    "test-ui": "vitest --ui",
+    "coverage": "vitest run --coverage"
   },
-  "license": "MIT",
   "devDependencies": {
+    "@solidjs/testing-library": "^0.5.2",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@types/babel__core": "^7.20.0",
+    "@types/debug": "^4.1.7",
     "@types/node": "^18.11.18",
+    "@types/testing-library__jest-dom": "^5.14.5",
+    "@vitest/coverage-c8": "^0.26.3",
+    "@vitest/ui": "^0.26.3",
     "autoprefixer": "^10.4.13",
+    "esbuild": "^0.14.54",
     "eslint-config-custom": "workspace:*",
+    "jsdom": "^20.0.3",
     "postcss": "^8.4.21",
+    "solid-start-node": "^0.2.15",
     "tailwind-config": "workspace:*",
     "tailwindcss": "^3.2.4",
     "tsconfig": "workspace:*",
     "typescript": "^4.9.4",
-    "vite": "^4.0.3",
-    "vite-plugin-solid": "^2.5.0"
+    "vite": "^3.2.5",
+    "vitest": "^0.26.3"
   },
   "dependencies": {
-    "solid-js": "^1.6.6"
+    "@faker-js/faker": "^7.6.0",
+    "@fontsource/fira-mono": "^4.5.0",
+    "@lukeed/uuid": "^2.0.0",
+    "@solidjs/meta": "^0.28.2",
+    "@solidjs/router": "^0.7.0",
+    "@tanstack/solid-table": "^8.7.8",
+    "solid-js": "^1.6.9",
+    "solid-start": "^0.2.15",
+    "ui": "workspace:*",
+    "undici": "^5.15.1"
+  },
+  "engines": {
+    "node": ">=16"
   }
 }

@@ -11,10 +11,13 @@
     "esModuleInterop": true,
     "jsx": "preserve",
     "jsxImportSource": "solid-js",
-    "types": ["vite/client"],
+    "baseUrl": "./",
+    "types": ["solid-start/env", "@testing-library/jest-dom"],
     "noEmit": true,
-    "isolatedModules": true
+    "isolatedModules": true,
+    "paths": {
+      "~/*": ["./src/*"]
+    }
   },
-  "include": ["src", "next-env.d.ts"],
-  "exclude": ["node_modules"]
+  "types": ["vitest"]
 }

@@ -171,9 +171,9 @@ module.exports = {
   },
   content: [
     // app content
-    `src/**/*.{html,js,ts,svelte,jsx,tsx,vue}`
+    "src/**/*.{html,js,ts,svelte,jsx,tsx,vue}"
     // include packages if not transpiling
-    // "../../packages/**/*.{js,ts,jsx,tsx}",
+    // "../../packages/**/*.{html,js,ts,jsx,tsx,svelte,vue}"
   ],
   plugins: [forms, typography, daisyui]
 };
