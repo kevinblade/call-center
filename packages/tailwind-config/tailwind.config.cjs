@@ -5,7 +5,6 @@ const forms = require('@tailwindcss/forms');
 
 module.exports = {
   mode: 'jit',
-  purge: ['src/app.html', 'src/**/*.svelte'],
   darkMode: 'class', // or 'media' or 'class'
   fontSize: {
     ...defaultTheme.fontSize,
@@ -172,7 +171,7 @@ module.exports = {
   },
   content: [
     // app content
-    `src/**/*.{js,ts,svelte,tsx,vue}`
+    `src/**/*.{html,js,ts,svelte,jsx,tsx,vue}`
     // include packages if not transpiling
     // "../../packages/**/*.{js,ts,jsx,tsx}",
   ],
