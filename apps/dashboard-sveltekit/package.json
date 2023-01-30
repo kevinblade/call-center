@@ -22,6 +22,7 @@
     "cookie": "^0.4.1",
     "svelte-chartjs": "^1.0.1",
     "svelte-particles": "^2.2.4",
+    "tsparticles-engine": "^2.8.0",
     "ui": "workspace:*"
   },
   "devDependencies": {
