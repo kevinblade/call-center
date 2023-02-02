@@ -1,7 +1,7 @@
 import { redirect } from '@sveltejs/kit';
-import type { PageServerLoad } from './$types';
+import type { LayoutServerLoad } from './$types';
 
-export const load: PageServerLoad = async ({ locals, url }) => {
+export const load: LayoutServerLoad = async ({ locals, url }) => {
   const user = locals?.user
 
   const isGuestPage = url.pathname.indexOf(import.meta.env.VITE_LOGIN_PATH) >= 0

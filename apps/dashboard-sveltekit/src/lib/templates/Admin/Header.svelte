@@ -70,7 +70,7 @@
 					<button
 						id="nav-notification-btn"
 						class="relative align-middle rounded-md focus:outline-none focus:shadow-outline-purple"
-						on:click={toggleNotificationsMenu}
+						on:click|preventDefault={toggleNotificationsMenu}
 						use:keydownEscape
 						on:keydown-escape={closeNotificationsMenu}
 						aria-label="Notifications"
@@ -136,7 +136,7 @@
 					<button
 						id="nav-profile-photo"
 						class="align-middle rounded-full focus:shadow-outline-purple focus:outline-none"
-						on:click={toggleProfileMenu}
+						on:click|preventDefault={toggleProfileMenu}
 						use:keydownEscape
 						on:keydown-escape={closeProfileMenu}
 						aria-label="Account"
