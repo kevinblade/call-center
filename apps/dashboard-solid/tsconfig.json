@@ -1,3 +1,5 @@
 {
-  "extends": "tsconfig/solidjs.json"
+  "extends": "tsconfig/solidjs.json",
+  "include": ["src/**/*.d.ts", "src/**/*.js", "src/**/*.jsx", "src/**/*.ts", "src/**/*.tsx"],
+  "exclude": ["node_modules", "dist"]
 }
