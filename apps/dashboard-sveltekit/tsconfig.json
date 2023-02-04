@@ -16,6 +16,7 @@
     "skipLibCheck": true,
     "sourceMap": true,
     "strict": true,
+    "noEmit": true,
     "paths": {
 			"$src/*": ["src/*"],
 			"$lib/": ["src/lib/"],
@@ -23,8 +24,7 @@
 			"$stores/*": ["src/stores/*"],
 			"$assets/*": ["src/assets/*"],
       "$icon/*": ["node_modules/svelte-bootstrap-icons/lib/*"]
-		},
-    "outDir": "dist"
+		}
   },
 	"include": ["src/**/*.d.ts", "src/**/*.js", "src/**/*.ts", "src/**/*.svelte"],
   "exclude": ["node_modules"]
